@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Stories UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="flex justify-center pt-10 text-5xl">Tailwind Stories</h1>
+    <div class="max-w-2xl mx-auto p-8">
+      <ul class="flex space-x-6">
+        <li class="flex flex-col items-center space-y-1">
+          <div
+            class="relative bg-gradient-to-tr from-yellow-400 to-fuchsia-600 p-1 rounded-full"
+          >
+            <a class="block bg-white p-1 rounded-full" href="#">
+              <img
+                class="h-24 w-24 rounded-full transform transition hover:-rotate-6"
+                src="img/img4.png"
+                alt="Alex"
+              />
+            </a>
+            <button
+              class="absolute bottom-0 right-1 bg-blue-500 h-8 w-8 rounded-full text-white text-2xl font-mono border-4 border-white flex justify-center items-center hover:bg-blue-700"
+            >
+              +
+            </button>
+          </div>
+          <a href="#">You</a>
+        </li>
+        <li class="flex flex-col items-center space-y-1">
+          <div
+            class="bg-gradient-to-tr from-yellow-400 to-fuchsia-600 p-1 rounded-full"
+          >
+            <a class="block bg-white p-1 rounded-full" href="#">
+              <img
+                class="h-24 w-24 rounded-full transform transition hover:-rotate-6"
+                src="img/img1.webp"
+                alt="Jordan"
+              />
+            </a>
+          </div>
+          <a href="#">Jordan</a>
+        </li>
+        <li class="flex flex-col items-center space-y-1">
+          <div
+            class="bg-gradient-to-tr from-yellow-400 to-fuchsia-600 p-1 rounded-full"
+          >
+            <a class="block bg-white p-1 rounded-full" href="#">
+              <img
+                class="h-24 w-24 rounded-full transform transition hover:-rotate-6"
+                src="img/img2.jpeg"
+                alt="Tom"
+              />
+            </a>
+          </div>
+          <a href="#">Tom</a>
+        </li>
+        <li class="flex flex-col items-center space-y-1">
+          <div
+            class="bg-gradient-to-tr from-yellow-400 to-fuchsia-600 p-1 rounded-full"
+          >
+            <a
+              class="block bg-white p-1 rounded-full transform transition hover:-rotate-6"
+              href="#"
+            >
+              <img
+                class="h-24 w-24 rounded-full"
+                src="img/img3.jpeg"
+                alt="Pete"
+              />
+            </a>
+          </div>
+          <a href="#">Pete</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
